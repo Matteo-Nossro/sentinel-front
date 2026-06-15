@@ -19,6 +19,8 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
+*.swp
+*~
 
 # Visual Studio Code
 .vscode/*
@@ -39,6 +41,22 @@ testem.log
 /typings
 __screenshots__/
 
+# Tests
+/test-results
+/playwright-report
+
 # System files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environnement
+.env
+.env.*
+!.env.example
+
+# Claude Code
+CLAUDE.md
+.claude/
+docs/
